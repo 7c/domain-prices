@@ -1,0 +1,4 @@
+private/
+package-lock.json
+.vscode/
+release.sh
