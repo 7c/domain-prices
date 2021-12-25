@@ -8,7 +8,7 @@ npm i --save domain-prices
 
 ## Usage
 ```
-const { dynadot_prices } = require('../index')
+const { dynadot_prices } = require('domain-prices')
 
 console.log(dynadot_prices())
 
