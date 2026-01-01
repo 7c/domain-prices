@@ -23,10 +23,10 @@ const cheap = service.search({ maxRegisterPrice: 5, privacy: true })
 const cost = service.calculateTotalCost('com', 3) // register + 2 renewals
 
 // Fetch latest prices from remote URL
-await service.fetchPrices('https://raw.githubusercontent.com/7c/domain-prices/main/dynadot.json')
+await service.fetchPrices('https://raw.githubusercontent.com/7c/domain-prices/refs/heads/main/data/dynadot.json')
 
 // Or create a new instance from URL
-const remote = await DomainPricesService.fromUrl('https://raw.githubusercontent.com/7c/domain-prices/main/dynadot.json')
+const remote = await DomainPricesService.fromUrl('https://raw.githubusercontent.com/7c/domain-prices/refs/heads/main/data/dynadot.json')
 ```
 
 ## API Reference

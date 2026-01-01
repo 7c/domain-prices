@@ -264,7 +264,7 @@ describe('DomainPricesService', () => {
     })
 
     describe('fetchPrices', () => {
-        const REMOTE_URL = 'https://raw.githubusercontent.com/7c/domain-prices/refs/heads/main/dynadot.json'
+        const REMOTE_URL = 'https://raw.githubusercontent.com/7c/domain-prices/refs/heads/main/data/dynadot.json'
 
         it('should fetch prices from URL and update internal data', async () => {
             const testService = new DomainPricesService()
@@ -286,7 +286,7 @@ describe('DomainPricesService', () => {
     })
 
     describe('fromUrl', () => {
-        const REMOTE_URL = 'https://raw.githubusercontent.com/7c/domain-prices/refs/heads/main/dynadot.json'
+        const REMOTE_URL = 'https://raw.githubusercontent.com/7c/domain-prices/refs/heads/main/data/dynadot.json'
 
         it('should create a new instance from URL', async () => {
             const remoteService = await DomainPricesService.fromUrl(REMOTE_URL)
