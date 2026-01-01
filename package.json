@@ -1,6 +1,6 @@
 {
   "name": "domain-prices",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Parsed domain prices from various major registrars",
   "main": "index.js",
   "scripts": {},
