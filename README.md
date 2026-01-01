@@ -3,7 +3,7 @@ Aiming to parse domain prices regularly and update.
 
 ## Installation
 ```
-npm i --save @7c/domain-prices
+npm i --save https://github.com/7c/domain-prices.git
 ```
 
 ## Quick Start
