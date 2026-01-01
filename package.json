@@ -1,14 +1,32 @@
 {
-  "name": "domain-prices",
-  "version": "1.0.7",
-  "description": "Parsed domain prices from various major registrars",
-  "main": "index.js",
-  "scripts": {},
+  "name": "@7c/domain-prices",
+  "version": "2.0.1",
+  "description": "Domain prices from various major registrars",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "jest --forceExit",
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/7c/domain-prices"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "domain",
+    "prices",
+    "registrars"
+  ],
+  "author": "7c",
+  "license": "ISC",
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.2.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.3",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6"
+  }
 }
